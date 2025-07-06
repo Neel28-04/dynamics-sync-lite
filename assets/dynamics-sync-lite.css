@@ -1,0 +1,134 @@
+/* Dynamics Sync Lite Styles */
+.dynamics-form-group {
+    margin-bottom: 15px;
+}
+
+.dynamics-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.dynamics-form-group input[type="text"],
+.dynamics-form-group input[type="email"],
+.dynamics-form-group input[type="tel"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#dynamics-messages {
+    margin-bottom: 20px;
+}
+
+#dynamics-messages .notice {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#dynamics-messages .notice-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+#dynamics-messages .notice-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+#dynamics-loading {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Error and Warning Styles */
+.dynamics-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.dynamics-error p {
+    margin: 0 0 10px 0;
+}
+
+.dynamics-error p:last-child {
+    margin-bottom: 0;
+}
+
+.dynamics-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.dynamics-warning p {
+    margin: 0 0 10px 0;
+}
+
+.dynamics-warning p:last-child {
+    margin-bottom: 0;
+}
+
+.dynamics-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.dynamics-success p {
+    margin: 0 0 10px 0;
+}
+
+.dynamics-success p:last-child {
+    margin-bottom: 0;
+}
+
+/* Admin Settings Styles */
+.dynamics-sync-lite-settings .required {
+    color: #dc3232;
+}
+
+.dynamics-sync-lite-settings input.error {
+    border-color: #dc3232;
+    box-shadow: 0 0 2px rgba(220, 50, 50, 0.4);
+}
+
+.dynamics-sync-lite-settings input.valid {
+    border-color: #46b450;
+    box-shadow: 0 0 2px rgba(70, 180, 80, 0.4);
+}
+
+.dynamics-test-connection {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.dynamics-test-connection h3 {
+    margin-top: 0;
+}
+
+#test-connection-result {
+    margin-top: 10px;
+}
+
+#test-connection-result .notice.inline {
+    margin: 5px 0;
+    padding: 8px 12px;
+}
